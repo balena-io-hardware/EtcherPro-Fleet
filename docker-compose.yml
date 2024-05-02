@@ -15,7 +15,7 @@ services:
          - 'REFRESH_DELAY=10'
          - 'PWM=1,0'
          - 'PWM_TEMPS=57,58,60,65'
-         - 'PWM_DUTY=0,800,1000,40000'
+         - 'PWM_DUTY=650,800,1000,40000'
          - 'THERMAL_ZONE=1'
 
   etcher:
