@@ -1,4 +1,4 @@
-FROM balenalib/aarch64-debian-node:14.17-bullseye-build as builder
+FROM balenalib/aarch64-debian-node:19.2-bullseye-build as builder
 RUN install_packages p7zip-full git python gcc g++ ruby-dev make libx11-dev libxkbfile-dev fakeroot rpm libsecret-1-dev jq python2.7-dev python3-pip python-setuptools libudev-dev
 
 WORKDIR /usr/src/app
